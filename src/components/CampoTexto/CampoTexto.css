@@ -1,0 +1,8 @@
+.campo-texto{
+    margin: 24px 0;
+    font-family: var(--font-family);
+}
+.campo-texto label{
+    font-size: 1rem;
+    font-weight: 600;
+}

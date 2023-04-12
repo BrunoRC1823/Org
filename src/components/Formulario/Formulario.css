@@ -1,0 +1,17 @@
+.section_formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+.formulario{
+    max-width: 80%;
+    background-color: var(--color-formulario);
+    box-shadow: 7px 7px 15px var(--sombras);
+    border-radius: 20px;
+    padding: 8px 100px;
+    color: var(--color-letras-formulario);
+}
+.formulario_titulo{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
