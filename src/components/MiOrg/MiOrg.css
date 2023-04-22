@@ -1,0 +1,27 @@
+.org_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    transition: all 0.5s;
+    margin-bottom: 3rem;
+}
+.titulo-org_section{
+    color: var(--color-primario);
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid var(--color-primario);
+}
+.org_section img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    right: 24%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.org_section img:hover{
+    transform: scale(0.95);
+}

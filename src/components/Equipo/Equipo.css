@@ -1,0 +1,41 @@
+.equipo_section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.paleta{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    z-index: 99;
+}
+.equipo_section h3{
+    font-weight: 400;
+    color: var(--color-letras);
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.colaboradores_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+.color-picker {
+    position: absolute;
+    z-index: 3;
+    right: 4%;
+    top: 11%;
+}

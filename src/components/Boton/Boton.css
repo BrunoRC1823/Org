@@ -1,0 +1,20 @@
+.boton{
+    background-color: var(--color-primario);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding: 8px 18px;
+    color: white;
+    margin: 32px 0;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+.boton > *{
+    width: 30px;
+    height: 30px;
+}
+.boton:hover{
+    box-shadow: 0px 0px 15px var(--color-primario);
+    transform: scale(0.95);
+}

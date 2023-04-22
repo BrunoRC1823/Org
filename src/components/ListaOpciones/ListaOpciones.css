@@ -1,0 +1,20 @@
+.lista-opciones {
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 24px 0;
+}
+.lista-opciones label{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.lista-opciones select{
+    width: 100%;
+    font-size: 0.8rem;
+    box-shadow: var(--sombras) 0px 3px 3px -2px, 0px 3px 3px -3px rgba(50, 50, 93,0.25);
+    border-radius: 5px;
+    padding: 25px 20px;
+    outline-color: var(--color-primario);
+}

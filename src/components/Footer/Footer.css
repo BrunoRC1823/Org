@@ -1,0 +1,68 @@
+.footer{
+    background-color: var(--color-primario);
+    width: 100%;
+    height: 213px;
+    position: relative;
+    color: white;
+    margin-top: 2rem;
+}
+.img_footer {
+    width: 100%;
+    height: 100%;
+}
+.footer_container{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    top: 35%;
+}
+.redes{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7rem;
+}
+.footer .footer_container .redes img{
+    width: auto;
+    height: auto;
+}
+.footer .footer_container .img-logo_footer{
+    width: 110px;
+}
+.footer strong:first-of-type{
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin-right: 3rem;
+}
+.figuras-geo_footer img:nth-of-type(1){
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 2%;
+    top: 45%;
+}
+.figuras-geo_footer img:nth-of-type(2){
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 32%;
+    top: 45%;
+}
+.figuras-geo_footer img:nth-of-type(3){
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: 30%;
+    top: 10%;
+}
+.figuras-geo_footer img:nth-of-type(4){
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: 0%;
+    bottom: 0%;
+}

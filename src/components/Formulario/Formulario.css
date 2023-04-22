@@ -1,17 +1,68 @@
-.section_formulario{
+.section_formulario {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin: 80px 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+    transform: scale(0);
+    filter: blur(12px);
+    opacity: 0;
+    transition: all 0.5s;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
-.formulario{
-    max-width: 80%;
+.blur-in-contract {
+    transform: scale(1);
+    filter: blur(.01px);
+    opacity: 1;
+}
+.blur-out-contract {
+    filter: blur(12px);
+    transform: scale(0);
+    opacity: 0;
+    animation: absoluto 0s 0.5s forwards;
+}
+@keyframes absoluto {
+    from {
+        position: relative;
+    }
+    to{
+        position: absolute;
+    }
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-color: var(--color-formulario);
-    box-shadow: 7px 7px 15px var(--sombras);
+    box-shadow: var(--sombras) 0px 6px 12px -2px, 0px 3px 7px -3px rgba(50, 50, 93,0.25);
     border-radius: 20px;
-    padding: 8px 100px;
-    color: var(--color-letras-formulario);
+    padding: 8px 4rem;
+    color: var(--color-letras);
+    box-sizing: border-box;
 }
-.formulario_titulo{
-    font-size: 1.4rem;
+.colaboradores{
+    flex-grow: 2;
+}
+.formulario_titulo {
+    font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.container-boton{
+    display: flex;
+}
+.container-formulario_colaboradores{
+    width: 25%;
+    flex-grow: 2;
+}
+.container-formulario_equipos{
+    flex-grow: 1;
+    width: 25%;
 }
